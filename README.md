@@ -2,6 +2,7 @@
 
 ## TOPIC
 - bluetooth connection
+###  bluetooth connection
 ### CODE
 1. #include <SoftwareSerial.h> //
 2. SoftwareSerial BTSerial(12, 13);   //12-TX    IMPORTANT!! TX of BTS serial is connected to RX of Serial, RX of BTS serial is connected to TX of Serial (RX is received, T of TX is transmit)
